@@ -4,9 +4,9 @@
 
 The file contains four 1440 × 900 screens: Home, All Events, Event Details, and Register. Navigation links connect the main flow, and Home is the flow starting point. Present the file in Figma to demonstrate the prototype.
 
-## RCOEM branding note
+## RCOEM branding
 
-The Figma AI canvas agent created the screens before the requested institution correction; its daily AI credits ran out before it could apply the correction. The Figma canvas still includes YCCE logo text and a few YCCE references in page copy. The included HTML/Bootstrap project is branded RCOEM Nagpur. Update those Figma text layers to RCOEM before presenting the Figma canvas as a final RCOEM design.
+The Figma canvas and the included HTML/Bootstrap project use RCOEM Nagpur branding. The four-screen prototype is ready to present.
 
 ## Browser demonstration
 
