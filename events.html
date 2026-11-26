@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>All events | RCOEM Events</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet"></head><body>
+<nav class="navbar navbar-expand-md navbar-dark"><div class="container">
+<a class="navbar-brand" href="index.html">RCOEM Events</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nv" aria-label="Menu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nv"><ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="events.html">All events</a></li>
+<li class="nav-item"><a class="nav-link " href="register.html">Register</a></li>
+</ul></div></div></nav>
+<main class="container mt-5"><h2>All events</h2>
+<div class="btn-group my-3" role="group" aria-label="Filter">
+<button class="btn btn-outline-dark active" data-f="all">All</button><button class="btn btn-outline-dark" data-f="Tech">Tech</button>
+<button class="btn btn-outline-dark" data-f="Workshop">Workshop</button><button class="btn btn-outline-dark" data-f="Cultural">Cultural</button></div>
+<div class="row g-4" id="list">
+<div class="col-md-6 col-lg-4 event" data-cat="Tech"><div class="event-card"><div class="strip" style="background:#0f766e"></div><div class="p-3">
+<div class="d-flex gap-3 mb-2"><div class="datebox" style="background:#e8eef5"><small>DEC</small><b>12</b></div>
+<div><span class="tag">Tech</span><h5 class="mt-1 mb-0">CodeSprint Hackathon</h5></div></div>
+<p class="small text-secondary mb-3">24 hours. Build something that works.</p>
+<a href="event.html" class="btn btn-sm btn-teal">View details</a></div></div></div>
+<div class="col-md-6 col-lg-4 event" data-cat="Workshop"><div class="event-card"><div class="strip" style="background:#f5a524"></div><div class="p-3">
+<div class="d-flex gap-3 mb-2"><div class="datebox" style="background:#e8eef5"><small>DEC</small><b>15</b></div>
+<div><span class="tag">Workshop</span><h5 class="mt-1 mb-0">Figma for Beginners</h5></div></div>
+<p class="small text-secondary mb-3">Hands-on UI design workshop.</p>
+<a href="event.html" class="btn btn-sm btn-teal">View details</a></div></div></div>
+<div class="col-md-6 col-lg-4 event" data-cat="Cultural"><div class="event-card"><div class="strip" style="background:#14213d"></div><div class="p-3">
+<div class="d-flex gap-3 mb-2"><div class="datebox" style="background:#e8eef5"><small>DEC</small><b>20</b></div>
+<div><span class="tag">Cultural</span><h5 class="mt-1 mb-0">Annual Cultural Night</h5></div></div>
+<p class="small text-secondary mb-3">Music, dance and stand-up.</p>
+<a href="event.html" class="btn btn-sm btn-teal">View details</a></div></div></div>
+<div class="col-md-6 col-lg-4 event" data-cat="Workshop"><div class="event-card"><div class="strip" style="background:#f5a524"></div><div class="p-3">
+<div class="d-flex gap-3 mb-2"><div class="datebox" style="background:#e8eef5"><small>JAN</small><b>08</b></div>
+<div><span class="tag">Workshop</span><h5 class="mt-1 mb-0">Resume Clinic</h5></div></div>
+<p class="small text-secondary mb-3">Placement-ready resume review.</p>
+<a href="event.html" class="btn btn-sm btn-teal">View details</a></div></div></div>
+<div class="col-md-6 col-lg-4 event" data-cat="Tech"><div class="event-card"><div class="strip" style="background:#0f766e"></div><div class="p-3">
+<div class="d-flex gap-3 mb-2"><div class="datebox" style="background:#e8eef5"><small>JAN</small><b>18</b></div>
+<div><span class="tag">Tech</span><h5 class="mt-1 mb-0">AI Tools Talk</h5></div></div>
+<p class="small text-secondary mb-3">Alumni session on AI in development.</p>
+<a href="event.html" class="btn btn-sm btn-teal">View details</a></div></div></div>
+<div class="col-md-6 col-lg-4 event" data-cat="Cultural"><div class="event-card"><div class="strip" style="background:#14213d"></div><div class="p-3">
+<div class="d-flex gap-3 mb-2"><div class="datebox" style="background:#e8eef5"><small>JAN</small><b>26</b></div>
+<div><span class="tag">Cultural</span><h5 class="mt-1 mb-0">Republic Day Programme</h5></div></div>
+<p class="small text-secondary mb-3">Flag hoisting and performances.</p>
+<a href="event.html" class="btn btn-sm btn-teal">View details</a></div></div></div>
+</div></main>
+<script>document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{
+document.querySelectorAll('[data-f]').forEach(x=>x.classList.remove('active'));b.classList.add('active');
+document.querySelectorAll('.event').forEach(e=>e.hidden=b.dataset.f!=='all'&&e.dataset.cat!==b.dataset.f)})</script>
+<footer><div class="container d-flex flex-wrap justify-content-between"><span>RCOEM Events, Nagpur</span><span>LA-II project: Figma + HTML + Bootstrap</span></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script></body></html>
+

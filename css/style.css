@@ -1,0 +1,17 @@
+:root{--ink:#14213d;--teal:#0f766e;--amber:#f5a524;--bg:#f2f6fa;--line:#d9e2ec}
+body{font-family:'Source Sans 3',sans-serif;background:var(--bg);color:var(--ink)}
+h1,h2,h3,h4,h5,.navbar-brand{font-family:'Bricolage Grotesque',sans-serif;font-weight:700}
+.navbar{background:var(--ink)}
+.navbar .nav-link{color:#cfd8e6}.navbar .nav-link:hover,.navbar .nav-link.active{color:#fff}
+.btn-teal{background:var(--teal);color:#fff;border:0}.btn-teal:hover{background:#0b5e58;color:#fff}
+.btn-amber{background:var(--amber);color:var(--ink);font-weight:600;border:0}
+.hero{background:var(--ink);color:#fff;padding:4rem 0}
+.hero .lead{color:#cfd8e6;max-width:34rem}
+.datebox{background:var(--amber);color:var(--ink);border-radius:.5rem;text-align:center;padding:.5rem .9rem;line-height:1.1;min-width:64px}
+.datebox b{display:block;font-size:1.8rem;font-family:'Bricolage Grotesque',sans-serif}
+.featured{background:#1f3158;border-radius:.75rem;padding:1.5rem}
+.event-card{border:1px solid var(--line);border-radius:.75rem;background:#fff;height:100%}
+.event-card .strip{height:6px;border-radius:.75rem .75rem 0 0}
+.tag{font-size:.8rem;padding:.15rem .6rem;border-radius:1rem;background:#e0f2f1;color:var(--teal)}
+footer{background:var(--ink);color:#9fb0c8;padding:1.5rem 0;margin-top:4rem}
+:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
