@@ -18,13 +18,15 @@ Open `index.html` directly. Bootstrap and Google Fonts load from their CDNs, so 
 
 ## Figma design and prototype
 
-A four-screen prototype (Home, All Events, Event Details, Register) has been created in Figma with linked navigation and Home as the starting point. Open the file using the link below. The Figma canvas still contains YCCE text in its logo and some page copy; the downloadable HTML project is branded RCOEM throughout.
+A four-screen prototype (Home, All Events, Event Details, Register) has been created in Figma with linked navigation and Home as the starting point. Open the file using the link below. The downloadable HTML project is branded RCOEM throughout.
 
 **Figma prototype:** https://www.figma.com/proto/V308ixIbOMxorLpHzL4pPh/RCOEM-Campus-Event-Portal-%E2%80%94-Nagpur?node-id=2-2&t=MZHfsX3BLS4bFt4k-1&starting-point-node-id=2%3A2
 
 ## GitHub submission
 
-Create a public repository named `campus-event-portal`, upload the contents of this folder, and paste the repository URL in Google Classroom (GC). Use `https://github.com/<your-username>/campus-event-portal` as the link format.
+This project is published in the public repository below. Share this link in Google Classroom (GC):
+
+https://github.com/parthlambat068-RDJ/campus-event-portal
 
 ## Design summary
 
